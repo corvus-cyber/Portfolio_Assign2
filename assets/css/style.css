@@ -44,3 +44,17 @@ h3 {
 }
 
 .container {margin: 0}
+
+.footer-copyright.text-center.py-3 {
+    background-color: silver;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-bar {
+        width: 640px;
+    } 
+ .container {
+         width: 100%;
+     }
+    
+}
