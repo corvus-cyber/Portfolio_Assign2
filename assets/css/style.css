@@ -9,7 +9,7 @@ body {
 /* Formatting for all of the pages */
 h1 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 100%;
     font-family: 'Cinzel Decorative', cursive;
     color: #ffffff;
 }
