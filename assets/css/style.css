@@ -6,10 +6,6 @@ body {
 
 
 
-
-
-
-
 /* Formatting for all of the pages */
 h1 {
     display: inline-block;
@@ -28,8 +24,8 @@ h3 {
 }
 
 .img-fluid {
-    width: 400px;
-    height: 560px;
+    width: 100%;
+    max-width: 400px;
 }
             /*Provides background color for the different columns in the index page*/
                 .col-md-7.m-3 {background-color:silver}
@@ -53,11 +49,7 @@ h4 {
 
 
 
-/*Formatting for all of the footers*/
-.row.md-4.footer {
-    bottom: 0;
-    width: 100%; 
-}    
+
 
 
 .footer-copyright.text-center.py-3 {
@@ -70,7 +62,9 @@ h4 {
 /*Provides formatting for the three htmls that overrides bootstrap*/
 @media screen and (max-width: 700px) {
     .nav-bar {
+       padding: 0;
         width: 640px;
+        position: absolute;
     } 
  .container {
          width: 100%;

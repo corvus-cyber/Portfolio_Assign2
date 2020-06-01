@@ -25,3 +25,10 @@ The purpose of this project was to create a responsive portfolio website that wo
 # Link:
 
 
+
+# Screenshot:
+![screenshot of index page](./assets/images/Index-screenshot.png)
+![screenshot of index page](./assets/images/Portfolio-Screenshot.png)
+![screenshot of index page](./assets/images/contact-screenshot.png)
+
+
