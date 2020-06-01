@@ -29,11 +29,11 @@ h3 {
 
 .img-fluid {
     width: 400px;
-    height: 500px;
+    height: 560px;
 }
             /*Provides background color for the different columns in the index page*/
-                .col-md-8.m-3 {background-color:silver}
-                .col-md-3.mt-3.mb-3.ml-3 {background-color:silver ;}
+                .col-md-7.m-3 {background-color:silver}
+                .col-md-4.mt-3.mb-3.ml-3 {background-color:silver ;}
                 .col-md-4.m-2 {background-color:silver;}
                 .col-md-3.m-2 {background-color: silver;}
 
