@@ -1,14 +1,16 @@
+/*Provides the background color for the body of the htmls*/
 body {
     background-color: #d9dcd6;
 }
 
 
 
-.col-md-8.m-3 {background-color:silver}
-.col-md-3.mt-3.mb-3.ml-3 {background-color:silver ;}
-.col-md-4.m-2 {background-color:silver;}
-.col-md-3.m-2 {background-color: silver;}
 
+
+
+
+
+/* Formatting for all of the pages */
 h1 {
     display: inline-block;
     font-size: 50px;
@@ -20,29 +22,41 @@ h2 {
     color: #ffffff;
     font-family: 'Courier New';
 }
+
 h3 {
     font-size: 20px;
-}
-
-
-.img-thumbnail {
-    width: 300px;
-    height: 300px;
 }
 
 .img-fluid {
     width: 400px;
     height: 500px;
 }
+            /*Provides background color for the different columns in the index page*/
+                .col-md-8.m-3 {background-color:silver}
+                .col-md-3.mt-3.mb-3.ml-3 {background-color:silver ;}
+                .col-md-4.m-2 {background-color:silver;}
+                .col-md-3.m-2 {background-color: silver;}
+
+
+
+/*Formatting solely for the portfolio page*/
+h4 {
+    font-size: 30 px;
+}
+
+.img-thumbnail {
+    width: 300px;
+    height: 300px;
+}
 
 
 
 
+
+/*Formatting for all of the footers*/
 .row.md-4.footer {
-    position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 2.5rem; 
+    width: 100%; 
 }    
 
 
@@ -51,9 +65,9 @@ h3 {
 
 }
 
-h4 {
-    font-size: 30 px;
-}
+
+
+/*Provides formatting for the three htmls that overrides bootstrap*/
 @media screen and (max-width: 700px) {
     .nav-bar {
         width: 640px;
